@@ -32,9 +32,7 @@ const BossTable = ({ boss, searchQuery, isAstraeos }: BossTableProps) => {
   return (
     <section>
       <h3
-        className={`text-xl font-bold mb-4 flex items-center gap-2 ${
-          isAstraeos ? "text-indigo-400" : "text-foreground"
-        }`}
+        className="text-xl font-bold mb-4 flex items-center gap-2 text-foreground"
       >
         <span className={`w-2 h-6 rounded-full ${boss.color}`} />
         {boss.name}
