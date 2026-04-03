@@ -37,9 +37,9 @@ export const mapsData: MapData[] = [
         color: "bg-primary",
         headers: ["Difficulty", "Lvl", "Artifacts", "Tributes (Qty)", "Element", "Tek Unlocks"],
         rows: [
-          { difficulty: "Gamma", level: "30", artifacts: "Clever, Hunter, Massive", tributes: "-", element: "24", tekUnlocks: "Replicator, Boots, Foundation, Sloped Roof" },
-          { difficulty: "Beta", level: "50", artifacts: "Clever, Hunter, Massive", tributes: "Argie Talon (5), Sarco Skin (5), Titanoboa Venom (5), Sauropod Vertebra (5)", element: "68", tekUnlocks: "Generator, Leggings, Sloped Wall, Staircase, Window Frame" },
-          { difficulty: "Alpha", level: "70", artifacts: "Clever, Hunter, Massive", tributes: "Argie Talon (10), Sarco Skin (10), Titanoboa Venom (10), Sauropod Vertebra (10)", element: "178", tekUnlocks: "Helmet, Turret, Large Wall, Pillar, Mosasaur Saddle" },
+          { difficulty: "Gamma", level: "30", artifacts: "Clever, Hunter, Massive", tributes: "-", element: "20", tekUnlocks: "Tek Foundation, Tek Replicator, Tek Triangle Ceiling, Tek Triangle Foundation, Tek Triangle Roof" },
+          { difficulty: "Beta", level: "50", artifacts: "Clever, Hunter, Massive", tributes: "Argie Talon (5), Sarco Skin (5), Titanoboa Venom (5), Sauropod Vertebra (5)", element: "56", tekUnlocks: "Sloped Tek Roof, Sloped Tek Wall Left/Right, Tek Boots, Tek Catwalk, Tek Ceiling, Tek Fence Foundation, Tek Foundation, Tek Ladder, Tek Pillar, Tek Railing, Tek Ramp, Tek Replicator, Tek Staircase, Tek Triangle Ceiling/Foundation/Roof, Tek Wall" },
+          { difficulty: "Alpha", level: "70", artifacts: "Clever, Hunter, Massive", tributes: "Argie Talon (10), Sarco Skin (10), Titanoboa Venom (10), Sauropod Vertebra (10)", element: "148", tekUnlocks: "Mosasaur Tek Saddle, Sloped Tek Roof, Sloped Tek Wall Left/Right, Tek Boots, Tek Catwalk, Tek Ceiling, Tek Fence Foundation, Tek Foundation, Tek Helmet, Tek Ladder, Tek Pillar, Tek Railing, Tek Ramp, Tek Replicator, Tek Staircase, Tek Triangle Ceiling/Foundation/Roof, Tek Turret, Tek Wall" },
         ],
       },
       {
@@ -47,9 +47,9 @@ export const mapsData: MapData[] = [
         color: "bg-primary",
         headers: ["Difficulty", "Lvl", "Artifacts", "Tributes (Qty)", "Element", "Tek Unlocks"],
         rows: [
-          { difficulty: "Gamma", level: "45", artifacts: "Brute, Devourer, Pack", tributes: "-", element: "48", tekUnlocks: "Replicator, Gauntlets, Trapdoor Frame" },
-          { difficulty: "Beta", level: "65", artifacts: "Brute, Devourer, Pack", tributes: "Megalania Toxin (5), Megalodon Tooth (5), Spino Sail (5), Therizino Claws (5), Thyla Hook-claw (5)", element: "132", tekUnlocks: "Dedicated Storage, Rifle, Window Frame, Doorframe" },
-          { difficulty: "Alpha", level: "85", artifacts: "Brute, Devourer, Pack", tributes: "Megalania Toxin (10), Megalodon Tooth (10), Spino Sail (10), Therizino Claws (10), Thyla Hook-claw (10)", element: "264", tekUnlocks: "Grenade, Rex Saddle, Large Doorframe" },
+          { difficulty: "Gamma", level: "45", artifacts: "Brute, Devourer, Pack", tributes: "-", element: "40", tekUnlocks: "Tek Gauntlets, Tek Hatchframe, Tek Replicator, Tek Trapdoor, Tek Window, Tek Windowframe" },
+          { difficulty: "Beta", level: "65", artifacts: "Brute, Devourer, Pack", tributes: "Megalania Toxin (5), Megalodon Tooth (5), Spino Sail (5), Therizino Claws (5), Thyla Hook-claw (5)", element: "110", tekUnlocks: "Tek Dinosaur Gate, Tek Dinosaur Gateway, Tek Door, Tek Doorframe, Tek Gauntlets, Tek Generator, Tek Hatchframe, Tek Replicator, Tek Rifle, Tek Trapdoor, Tek Trough, Tek Window, Tek Windowframe" },
+          { difficulty: "Alpha", level: "85", artifacts: "Brute, Devourer, Pack", tributes: "Megalania Toxin (10), Megalodon Tooth (10), Spino Sail (10), Therizino Claws (10), Thyla Hook-claw (10)", element: "220", tekUnlocks: "Large Tek Wall, Rex Tek Saddle, Tek Dinosaur Gate, Tek Dinosaur Gateway, Tek Door, Tek Doorframe, Tek Gauntlets, Tek Generator, Tek Grenade, Tek Hatchframe, Tek Replicator, Tek Rifle, Tek Trapdoor, Tek Trough, Tek Window, Tek Windowframe" },
         ],
       },
       {
@@ -57,9 +57,9 @@ export const mapsData: MapData[] = [
         color: "bg-primary",
         headers: ["Difficulty", "Lvl", "Artifacts", "Tributes (Qty)", "Element", "Tek Unlocks"],
         rows: [
-          { difficulty: "Gamma", level: "55", artifacts: "Cunning, Immune, Skylord, Strong", tributes: "-", element: "96", tekUnlocks: "Replicator, Trough, Ceiling, Tapejara Saddle" },
-          { difficulty: "Beta", level: "75", artifacts: "Cunning, Immune, Skylord, Strong", tributes: "Allo Brain (5), Basilo Blubber (5), Giga Heart (1), Tuso Tentacle (5), Rex Arm (5), Yuty Lung (5)", element: "264", tekUnlocks: "Dedicated Storage, Forcefield, Vacuum Compartment, Transmitter" },
-          { difficulty: "Alpha", level: "100", artifacts: "Cunning, Immune, Skylord, Strong", tributes: "Allo Brain (10), Basilo Blubber (10), Giga Heart (2), Tuso Tentacle (10), Rex Arm (15), Yuty Lung (10)", element: "528", tekUnlocks: "Chestpiece, Transmitter, Teleporter, Cloning Chamber" },
+          { difficulty: "Gamma", level: "55", artifacts: "Cunning, Immune, Skylord, Strong", tributes: "-", element: "80", tekUnlocks: "Behemoth Tek Gate, Behemoth Tek Gateway, Megalodon Tek Saddle, Small Tek Teleporter, Tapejara Tek Saddle, Tek Behemoth Cellar Door, Tek Leggings, Tek Replicator" },
+          { difficulty: "Beta", level: "75", artifacts: "Cunning, Immune, Skylord, Strong", tributes: "Allo Brain (5), Basilo Blubber (5), Giga Heart (1), Tuso Tentacle (5), Rex Arm (5), Yuty Lung (5)", element: "220", tekUnlocks: "Behemoth Tek Gate, Behemoth Tek Gateway, Megalodon Tek Saddle, Small Tek Teleporter, Tapejara Tek Saddle, Tek Behemoth Cellar Door, Tek Dedicated Storage, Tek Double Door, Tek Double Doorframe, Tek Fence Support, Tek Forcefield, Tek Leggings, Tek Replicator, Tek Stairs, Tek Transmitter, Vacuum Compartment" },
+          { difficulty: "Alpha", level: "100", artifacts: "Cunning, Immune, Skylord, Strong", tributes: "Allo Brain (10), Basilo Blubber (10), Giga Heart (2), Tuso Tentacle (10), Rex Arm (15), Yuty Lung (10)", element: "440", tekUnlocks: "Behemoth Tek Gate, Behemoth Tek Gateway, Cloning Chamber, Megalodon Tek Saddle, Small Tek Teleporter, Tapejara Tek Saddle, Tek Behemoth Cellar Door, Tek Chestpiece, Tek Dedicated Storage, Tek Double Door, Tek Double Doorframe, Tek Fence Support, Tek Forcefield, Tek Leggings, Tek Replicator, Tek Stairs, Tek Teleporter, Tek Transmitter, Vacuum Compartment Moonpool, Vacuum Compartment" },
         ],
       },
       {
@@ -70,7 +70,7 @@ export const mapsData: MapData[] = [
         rows: [
           { difficulty: "Gamma", level: "60", artifacts: "Gamma Broodmother, Megapithecus, Dragon Trophies", tributes: "-", tekUnlocks: "+5 Max Player Levels" },
           { difficulty: "Beta", level: "80", artifacts: "Beta Broodmother, Megapithecus, Dragon Trophies", tributes: "Alpha Raptor Claw (1), Alpha Carno Arm (1), Alpha Rex Tooth (1)", tekUnlocks: "+10 Max Player Levels" },
-          { difficulty: "Alpha", level: "100", artifacts: "Alpha Broodmother, Megapithecus, Dragon Trophies", tributes: "Raptor Claw, Carno Arm, Rex Tooth, Megalodon Fin, Mosasaur Tooth, Tuso Eye, Leedsichthys Blubber (1 Each)", tekUnlocks: "+15 Max Player Levels, Tek Binoculars" },
+          { difficulty: "Alpha", level: "100", artifacts: "Alpha Broodmother, Megapithecus, Dragon Trophies", tributes: "Raptor Claw, Carno Arm, Rex Tooth, Megalodon Fin, Mosasaur Tooth, Tuso Eye, Leedsichthys Blubber (1 Each)", tekUnlocks: "+15 Max Player Levels, Tek ATV, Tek Binoculars" },
         ],
       },
     ],
@@ -84,9 +84,9 @@ export const mapsData: MapData[] = [
         color: "bg-orange-500",
         headers: ["Difficulty", "Lvl", "Artifacts", "Tributes (Qty)", "Element", "Tek Unlocks"],
         rows: [
-          { difficulty: "Gamma", level: "55", artifacts: "Crag, Destroyer, Gatekeeper", tributes: "Fire Talon (2), Lightning Talon (2), Poison Talon (2)", element: "68", tekUnlocks: "Generator, Trough, Replicator, Foundation, Ceiling" },
-          { difficulty: "Beta", level: "70", artifacts: "Crag, Destroyer, Gatekeeper", tributes: "Fire Talon (10), Lightning Talon (10), Poison Talon (10)", element: "244", tekUnlocks: "Dedicated Storage, Rifle, Gauntlets, Stairs" },
-          { difficulty: "Alpha", level: "95", artifacts: "Crag, Destroyer, Gatekeeper", tributes: "Fire Talon (20), Lightning Talon (20), Poison Talon (20)", element: "514", tekUnlocks: "Shield, Rex Saddle, Forcefield, Cloning Chamber, Teleporter" },
+          { difficulty: "Gamma", level: "55", artifacts: "Crag, Destroyer, Gatekeeper", tributes: "Fire Talon (2), Lightning Talon (2), Poison Talon (2)", element: "57", tekUnlocks: "Small Tek Teleporter, Tek Gauntlets, Tek Generator, Tek Leggings, Tek Replicator, Tek Trough" },
+          { difficulty: "Beta", level: "70", artifacts: "Crag, Destroyer, Gatekeeper", tributes: "Fire Talon (10), Lightning Talon (10), Poison Talon (10)", element: "203", tekUnlocks: "Tapejara Tek Saddle, Small Tek Teleporter, Tek Dedicated Storage, Tek Gauntlets, Tek Generator, Tek Leggings, Tek Replicator, Tek Rifle, Tek Shield, Tek Trough" },
+          { difficulty: "Alpha", level: "95", artifacts: "Crag, Destroyer, Gatekeeper", tributes: "Fire Talon (20), Lightning Talon (20), Poison Talon (20)", element: "428", tekUnlocks: "Cloning Chamber, Rex Tek Saddle, Small Tek Teleporter, Tapejara Tek Saddle, Tek Dedicated Storage, Tek Forcefield, Tek Gauntlets, Tek Generator, Tek Grenade, Tek Leggings, Tek Replicator, Tek Rifle, Tek Shield, Tek Teleporter, Tek Trough" },
         ],
       },
     ],
@@ -98,6 +98,7 @@ export const mapsData: MapData[] = [
       {
         name: "The Center Arena (Dual Boss)",
         color: "bg-emerald-500",
+        note: "Element and Tek Unlocks are not verified yet. Will update soon.",
         headers: ["Difficulty", "Lvl", "Artifacts", "Tributes (Qty)", "Element", "Tek Unlocks"],
         rows: [
           { difficulty: "Gamma", level: "70", artifacts: "Brute, Devourer, Massive, Clever, Hunter, Pack", tributes: "-", element: "92", tekUnlocks: "Replicator, Generator, Shield, Gauntlets, Boots" },
@@ -116,9 +117,9 @@ export const mapsData: MapData[] = [
         color: "bg-purple-500",
         headers: ["Difficulty", "Lvl", "Artifacts", "Tributes (Qty)", "Element", "Tek Unlocks"],
         rows: [
-          { difficulty: "Gamma", level: "60", artifacts: "Depths, Shadows, Stalker", tributes: "-", element: "40", tekUnlocks: "Sleeping Pod, Replicator, Generator" },
-          { difficulty: "Beta", level: "75", artifacts: "Depths, Shadows, Stalker", tributes: "Basilisk Scale (4), Nameless Venom (12), Reaper Pheromone Gland (2), Rock Drake Feather (2)", element: "110", tekUnlocks: "Rock Drake Saddle, Railgun, Transmitter" },
-          { difficulty: "Alpha", level: "100", artifacts: "Depths, Shadows, Stalker", tributes: "Basilisk Scale (8), Nameless Venom (20), Reaper Gland (7), Drake Feather (7), Alpha Basilisk Fang (1), Alpha Karkinos Claw (1), Alpha Reaper King Barb (1)", element: "220", tekUnlocks: "Tek Mutator, Chestpiece, +15 Max Level, Cloning Chamber, Teleporter" },
+          { difficulty: "Gamma", level: "60", artifacts: "Depths, Shadows, Stalker", tributes: "-", element: "40", tekUnlocks: "Gamma Aberrant Implant, Tek Gauntlets, Tek Generator, Tek Leggings, Tek Replicator, Tek Sleeping Pod, Tek Trough" },
+          { difficulty: "Beta", level: "75", artifacts: "Depths, Shadows, Stalker", tributes: "Basilisk Scale (4), Nameless Venom (12), Reaper Pheromone Gland (2), Rock Drake Feather (2)", element: "110", tekUnlocks: "Beta Aberrant Implant, Rock Drake Tek Saddle, Tek Boots, Tek Chestpiece, Tek Dedicated Storage, Tek Gauntlets, Tek Generator, Tek Helmet, Tek Leggings, Tek Replicator, Tek Rifle, Tek Sleeping Pod, Tek Trough" },
+          { difficulty: "Alpha", level: "100", artifacts: "Depths, Shadows, Stalker", tributes: "Basilisk Scale (8), Nameless Venom (20), Reaper Gland (7), Drake Feather (7), Alpha Basilisk Fang (1), Alpha Karkinos Claw (1), Alpha Reaper King Barb (1)", element: "220", tekUnlocks: "Alpha Aberrant Implant, Cloning Chamber, Rex Tek Saddle, Rock Drake Tek Saddle, Tek Boots, Tek Chestpiece, Tek Dedicated Storage, Tek Forcefield, Tek Gauntlets, Tek Generator, Tek Helmet, Tek Leggings, Tek Railgun, Tek Replicator, Tek Rifle, Tek Sleeping Pod, Tek Teleporter, Tek Trough" },
         ],
       },
     ],
@@ -132,9 +133,9 @@ export const mapsData: MapData[] = [
         color: "bg-red-500",
         headers: ["Titan", "Lvl", "Artifact", "Tribute Cost", "Key Unlocks"],
         rows: [
-          { difficulty: "Gamma", level: "1", artifacts: "Chaos", tributes: "Corrupt Heart (100), Fire Talon (10), Sarco Skin (10)", tekUnlocks: "Dedicated Storage, Boots, Railgun" },
-          { difficulty: "Beta", level: "1", artifacts: "Growth", tributes: "Corrupt Heart (100), Sauropod Vertebra (10), Rex Arm (10)", tekUnlocks: "Gauntlets, Replicator, Transmitter" },
-          { difficulty: "Alpha", level: "1", artifacts: "Void", tributes: "Corrupt Heart (100), Spino Sail (10), Therizino Claws (10)", tekUnlocks: "Generator, Leggings, Rifle" },
+          { difficulty: "Gamma", level: "1", artifacts: "Chaos", tributes: "Corrupt Heart (100), Fire Talon (10), Sarco Skin (10)", tekUnlocks: "Tek Boots, Tek Dedicated Storage, Tek Generator, Tek Railgun, Tek Replicator, Tek Trough" },
+          { difficulty: "Beta", level: "1", artifacts: "Growth", tributes: "Corrupt Heart (100), Sauropod Vertebra (10), Rex Arm (10)", tekUnlocks: "Rex Tek Saddle, Tek Gauntlets, Tek Leggings, Tek Replicator, Tek Sword, Tek Teleporter" },
+          { difficulty: "Alpha", level: "1", artifacts: "Void", tributes: "Corrupt Heart (100), Spino Sail (10), Therizino Claws (10)", tekUnlocks: "Tapejara Tek Saddle, Tek Chestpiece, Tek Forcefield, Tek Helmet, Tek Replicator, Tek Rifle" },
         ],
       },
       {
@@ -156,6 +157,7 @@ export const mapsData: MapData[] = [
       {
         name: "Nunatak (Remastered Ice Wyvern)",
         color: "bg-cyan-500",
+        note: "Element and Tek Unlocks are not verified yet. Will update soon.",
         headers: ["Difficulty", "Lvl", "Artifacts", "Tributes (Qty)", "Element", "Tek Unlocks"],
         rows: [
           { difficulty: "Gamma", level: "70", artifacts: "All 10 Rag Artifacts", tributes: "-", element: "100", tekUnlocks: "Gate, Light, Replicator, Generator" },
@@ -172,6 +174,7 @@ export const mapsData: MapData[] = [
       {
         name: "Grendel (The Skull King)",
         color: "bg-yellow-500",
+        note: "Element and Tek Unlocks are not verified yet. Will update soon.",
         headers: ["Difficulty", "Lvl", "Artifacts", "Tributes (Qty)", "Element", "Key Tek Unlocks"],
         rows: [
           { difficulty: "Gamma", level: "70", artifacts: "Devourer, Pack, Skylord", tributes: "Allo Brain (5), Argie Talon (5), Sarco Skin (5), Venom (5), Vertebra (5)", element: "90", tekUnlocks: "Tapejara Saddle, Ceiling, Generator" },
