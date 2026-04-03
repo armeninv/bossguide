@@ -42,7 +42,7 @@ const Index = () => {
               onClick={() => setActiveMap(map.id)}
               className={`map-tab ${
                 activeMap === map.id ? "tab-active" : ""
-              } ${map.special ? "font-bold text-indigo-400" : ""}`}
+              } ${map.special ? "font-bold" : ""}`}
             >
               {map.label}
             </button>
