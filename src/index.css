@@ -124,5 +124,7 @@
     border-bottom: 1px solid hsl(var(--table-border));
     vertical-align: top;
     padding: 0.75rem 1rem;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
   }
 }
