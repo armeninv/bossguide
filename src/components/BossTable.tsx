@@ -45,7 +45,15 @@ const BossTable = ({ boss, searchQuery, isAstraeos }: BossTableProps) => {
       )}
 
       <div className="overflow-x-auto bg-card/40 rounded-xl border border-border shadow-2xl">
-        <table className="data-table w-full text-left text-sm">
+        <table className="data-table w-full text-left text-sm table-fixed">
+          <colgroup>
+            <col className="w-[10%]" />
+            <col className="w-[6%]" />
+            <col className="w-[18%]" />
+            <col className="w-[24%]" />
+            {boss.headers.includes("Element") && <col className="w-[8%]" />}
+            <col />
+          </colgroup>
           <thead>
             <tr>
               {boss.headers.map((h) => (
